@@ -21,8 +21,11 @@ For tackling 2 objectives in this case study, 2 different approaches are adopted
 3. Instead **Recall/Sensitivity** will be a very good measure. A model with 81% sensitivity will identify 81% of churned customers and will only miss 19% of churned customers. A highly sensitive model can be useful for rolling out targeted plans & Schemes to potential churn customers & retain them
 
 Model	                        	  Accuracy	Sensitivity	Specificity	Precision
+
 a)	Logistic Regression with RFE	0.814771	0.811620	  0.815026  	0.262528
+
 b)	Random Forest with PCA	    	0.852556	0.765845	  0.859591	  0.306770
+
 c)  XGBoost with PCA	            0.860748	0.792254	  0.866305	  0.324675
 
 From the above  results table, it looks like the Logistic Regression with RFE gives better model performance when comparing Random Forest with PCA and XGBoost with PCA for the following reasons:
